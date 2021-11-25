@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#mainContainer{
+    width: 43%;
+    margin: 5em auto; 
+}
+header {
+ width: 100%; 
+ background-color: cyan;
+ margin-bottom:0.4em ;
+}
+img{
+    width: 100%;
+    height: 300px;
+}
+header h1{
+    padding: 0.5em;
+    
+} 
+section{
+    font-size: 2.5rem;
+    background-color: cyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#scoreShower{
+padding: 0.4em;
+}
+
+section button{
+    font-size: 1.5rem;
+    padding: 0.6em;
+    border-radius: 10px;
+    margin: 0.5em 0.2em;
+}
+
+#addScoreToPlayer1{
+    background-color: darkgoldenrod;
+}
+#addScoreToPlayer2{
+    background-color: rgb(199, 108, 226);
+}
+#resetButton{
+    background-color: rgb(109, 106, 100);
+}
+
+.won{
+    color: rgb(46, 211, 46);
+}
+.lost{
+    color: rgba(245, 112, 112, 0.288);
+}
